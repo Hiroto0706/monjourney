@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* アクアマリンふくしまの詳細ページのcss */
+.front_aquamarine {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://itta.me/assets/img/article/11598/06.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.pic_trans{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.front_aquamarine p{
+  position: absolute;
+  color: rgb(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 50px;
+  font-family :Quicksand, sans-serif;
+  height: 600px;
+  margin: auto;
+  padding: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  writing-mode: vertical-rl;
+  font-family: "Hannari";
+}
+
+.aquamarine_det{
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.aquamarine_text_det1{
+  margin: auto;
+  text-align: center;
+}
+
+.aquamarine_text_det2{
+  padding-top: 40px;
+  margin: auto;
+  text-align: center;
+}
+
+.aquamarine_map{
+  width: 80%;
+  height: 80vh;
+  background-image: url("https://pbs.twimg.com/media/DLmhVAsUQAEJFHj?format=jpg&name=large");
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,551 @@
+@charset "UTF-8";
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #FFFAF0;
+  font-family: “STKaiti”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, serif;
+  
+}
+
+div{
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.prof_padding{
+	padding-left: 20px;
+}
+
+ul {
+  font-size: 30px;
+  padding-top: 250px;
+}
+
+li{
+  padding-left: 20px;
+}
+
+li > a{
+  color: black;
+}
+
+.padding{
+  padding-top: 30px;
+}
+
+
+/* 最初の画像のcss */
+.front {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://www.jtb.co.jp/kando/assets/293_kv_pc01.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.front_trans{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.front p{
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  font-family :Quicksand, sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  writing-mode: vertical-rl;
+  font-family: "Hannari";
+}
+
+.back_grad{
+  background: linear-gradient(#FFFAF0, #f7f4dc);
+  padding-bottom: 250px;
+  padding-top: 100px;
+}
+
+.prof {
+  padding-top: 100px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin: 0 200px 0 auto;
+}
+
+.prof div{
+  font-size: 40px;
+  font-weight: bold;
+  height: 1000px;
+  margin-left: 150px;
+}
+
+.prof p{
+  padding-top: 150px;
+  padding-bottom: 250px;
+  font-size: 20px;
+}
+
+
+/* 大内宿のcss */
+.ohuchi {
+  display: flex;
+}
+
+.ohuchi_pic{
+  position: relative;
+  width: 55%;
+  height: 550px;
+  background-image: url("https://www.fukushimatrip.com/wp-content/uploads/IGP1893-2.jpg");
+  text-align: left;
+  background-size: cover;
+}
+
+.ohuchi_text {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.ohuchi_title{
+  font-size: 100px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.ohuchi_text a{
+  color: black;
+}
+
+
+/* 鶴ヶ城のcss */
+.tsurugajo_pic {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/thegate/2021/06/01/18/31/13/Tsurugajo_Castle_Title.jpg");
+  background-size: cover;
+}
+
+.tsurugajo_text{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.tsurugajo_title{
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+}
+
+.tsurugajo_text p {
+  color: white;
+}
+
+.tsurugajo_text a{
+  color: white;
+}
+
+
+/* 高湯温泉のcss */
+.takayu_back{
+  padding-bottom: 250px;
+  background: linear-gradient(#f7f4dc, #85dbfb);
+}
+
+.takayu{
+  padding-top: 250px;
+}
+
+.takayu_pic{
+  position: relative;
+  width: 70%;
+  height: 100vh;
+  background-image: url("https://cdn.4travel.jp/img/tcs/t/album/src/11/61/23/src_11612370.jpg?updated_at=1585209315");
+  background-size: cover;
+  margin: auto;
+}
+
+.takayu_text{
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+
+.takayu_text p{
+  margin: 0 0 0 0;
+}
+
+.takayu_title{
+  font-size: 100px;
+}
+
+.takayu_par{
+  font-size: 8px;
+}
+
+.takayu_text a{
+  color: black;
+  font-size: 8px;
+}
+
+
+/* アクアマリン福島のcss */
+.aquamarine{
+  padding-bottom: 250px;
+  background: linear-gradient(#85dbfb, #3e7ddc);
+  display: flex;
+}
+
+.aquamarine_pic{
+  position: relative;
+  width: 50%;
+  height: 550px;
+  background-image: url("https://itta.me/assets/img/article/11598/06.jpg");
+  background-size: cover;
+  margin-left: 30px;
+}
+
+.aquamarine_minipic1{
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  background-image: url("https://www.shikoku-np.co.jp/img_news.aspx?id=20150403000087&no=1&kyodo=1");
+  background-size: cover;
+  bottom: -100px;
+  right: -100px;
+}
+
+.aquamarine_minipic2{
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  background-image: url("https://pbs.twimg.com/media/DYZUxT8VMAE6SjY?format=jpg&name=large");
+  background-size: cover;
+  top: -100px;
+  left: -20px;
+}
+
+.aquamarine_minipic3{
+  position: absolute;
+  width: 130px;
+  height: 200px;
+  background-image: url("https://www.tif.ne.jp/kodomokankotai/photo/124.JPG");
+  transform: scale(-1, 1);  /* 画像を反転 */
+  background-size: cover;
+  right: -236px;
+  top: 100px;
+}
+
+.aquamarine_text{
+  position: relative;
+  margin: auto;
+  color: white;
+  writing-mode: vertical-rl;
+}
+
+.aquamarine_title{
+  font-size: 60px;
+  margin: 0;
+}
+
+.aquamarine_text a{
+  color: white;
+}
+
+/* 東山温泉のcss */
+.higashiyama{
+  padding-bottom: 250px;
+  background: linear-gradient(#3e7ddc, #1e1e1f);
+}
+
+.higashiyama_pic{
+  position: relative;
+  width: 80%;
+  height: 100vh;
+  background-image: url("https://www.spa.or.jp/img_hotel/L070260017/1.jpg");
+  text-align: left;
+  background-size: cover;
+  margin: auto;
+}
+
+.higashiyama_text{
+  position: absolute;
+  bottom: 150px;
+  right: 50px;
+  width: 200px;
+  height: 450px;
+  background-color: black;
+}
+
+.higashiyama_title{
+  font-size: 70px;
+  margin-right: 0;
+  padding-right: 0;
+  padding-top: 30px;
+}
+
+.higashiyama_text p {
+  font-size: 8px;
+	writing-mode: vertical-rl;
+  text-orientation: upright;
+  color: white;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.higashiyama_text a{
+  color: white;
+}
+
+/* 猪苗代湖のcss */
+.inawashiroko{
+  background: linear-gradient(#1e1e1f, rgb(38, 38, 38));
+  padding-bottom: 250px;
+}
+
+.inawashiro_pic{
+  position: relative;
+  width: 40%;
+  height: 100vh;
+  background-image: url("https://i2.wp.com/mizu-mirai.jp/wp-content/uploads/2020/01/%E4%BD%B3%E4%BD%9C_%E3%80%8C%E6%9A%AE%E8%89%B2%E3%81%AE%E4%B8%AD%E3%81%A7%E3%80%8D%E5%B7%A5%E8%97%A4%E4%BF%8A-scaled.jpg?ssl=1");
+  background-size: cover;
+  margin: 0 0 0 auto;
+}
+
+.inawashiro_picmin{
+  position: absolute;
+  width: 360px;
+  height: 500px;
+  background-image: url("https://i1.wp.com/mizu-mirai.jp/wp-content/uploads/2019/03/%E7%9B%AE%E8%A6%9A%E3%82%81%E3%82%8B%E6%B9%96.jpg?ssl=1");
+  background-size: cover;
+  bottom: 50px;
+  left: -800px;
+}
+
+.inawashiro_text{
+  position: absolute;
+  top: 200px;
+  left: -400px;
+  color: white;
+}
+
+.inawashiro_title{
+  width: 500px;
+  position: absolute;
+  top: 0px;
+  left: -150px;
+  font-size: 70px;
+}
+
+.inawashiro_p{
+  position: absolute;
+  width: 500px;
+  top: 200px;
+}
+
+.inawashiro_p a{
+  color: white;
+}
+
+/* 塔のへつりのcss */
+.tower{
+background-color: black;
+display: flex;
+padding-bottom: 250px;
+}
+
+.tower_pic{
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  background-image: url("https://www.aizu-concierge.com/wp-content/uploads/2018/08/20191102_tonohetsuri1-1.jpg");
+  text-align: left;
+  background-size: cover;
+}
+
+.tower_title{
+  font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.tower_text{
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.tower_text a{
+  color: white;
+}
+
+/* あぶくま洞のcss */
+.abukuma{
+ background-color: black;
+ display: flex;
+}
+
+.abukuma_pic{
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/d9/27/ed/d927ed70c8ed512f431b2ddcb9f606b4.jpg");
+  background-size: cover;
+}
+
+.abukuma_text{
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+.abukuma_title{
+  font-size: 70px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.abukuma_text a{
+  color: white;
+}
+
+.padding_block{
+  padding-bottom: 250px;
+  background: linear-gradient(black, rgb(1,112,184));
+}
+
+/* 花見山公園のcss */
+.hanamiyama{
+  padding-bottom: 250px;
+}
+
+.hanamiyama_pic{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://www.hanamiyama.jp/wp/wp-content/themes/hanamiyama/images/slide0103.jpg");
+  text-align: left;
+  background-size: cover;
+}
+
+.hanamiyama_title{
+  width: 400px;
+  height: 100px;
+  background-color: black;
+
+  position: absolute;
+  bottom: -60px;
+  left: 0px;
+  font-size: 70px;
+  color: white;
+}
+
+.hanamiyama_text{
+  text-align: center;
+}
+
+.hanamiyama_text a{
+  color: black;
+}
+
+/* 五色沼湖沼群のcss */
+.goshiki{
+  padding-bottom: 250px;
+}
+
+.goshiki_left{
+  display: flex;
+}
+
+.goshiki_pic_l{
+  position: relative;
+  width: 50%;
+  height: 55vh;
+  background-image: url("https://tori-dori.com/wp/wp-content/uploads/BP19-103853.jpg");
+  text-align: left;
+  background-size: cover;
+}
+
+.goshiki_title{
+  margin: auto;
+  font-size: 80px;
+  writing-mode: vertical-rl;
+}
+
+.goshiki_right{
+  display: flex;
+}
+
+.goshiki_pic_r{
+  margin: 0 0 0 auto;
+  position: relative;
+  width: 50%;
+  height: 55vh;
+  background-image: url("https://tori-dori.com/wp/wp-content/uploads/BP17-038514.jpg");
+  text-align: left;
+  background-size: cover;
+}
+
+.goshiki_text{
+  text-align: center;
+  margin: auto;
+}
+
+.goshiki_text a{
+  color: black;
+}
+
+/* まとめのCSS */
+.matome{
+  width: 600px;
+  padding: 2em 4em;
+  margin: auto;
+  font-weight: bold;
+  color: black;
+  background: #FFF;
+  border: solid 3px black;
+  border-radius: 10px;
+}
+
+.matome div{
+  font-size: 50px;
+}
+
+.matome p{
+  font-size: 20px;
+  margin: 0; 
+  padding: 0;
+}
+
+/* fotterのcss */
+footer{
+  height: 500px;
+  padding-top: 200px;
+}
+
+.fotter_p{
+  background-color: rgb(28, 27, 27);
+  color: white;
+  height: 37em; /* emは１文字分の長さを表している */
+  display: flex; /* ある要素を並列にする操作 */
+  align-items: center; /*交差軸に対し中央に配置 */
+  justify-content: center; /* 主軸に対して中央に配置 */
+}
+

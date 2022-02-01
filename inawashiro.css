@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* 猪苗代湖の詳細ページのcss */
+.front_inawashiroko {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://i2.wp.com/mizu-mirai.jp/wp-content/uploads/2020/01/%E4%BD%B3%E4%BD%9C_%E3%80%8C%E6%9A%AE%E8%89%B2%E3%81%AE%E4%B8%AD%E3%81%A7%E3%80%8D%E5%B7%A5%E8%97%A4%E4%BF%8A-scaled.jpg?ssl=1");
+  background-size: cover;
+  background-position: center;
+}
+
+.pic_trans{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.front_inawashiroko p{
+  position: absolute;
+  color: rgb(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 50px;
+  font-family :Quicksand, sans-serif;
+  height: 600px;
+  margin: auto;
+  padding: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  writing-mode: vertical-rl;
+  font-family: "Hannari";
+}
+
+.inawashiroko_det{
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.inawashiroko_text_det1{
+  margin: auto;
+  text-align: center;
+}
+
+.inawashiroko_text_det2{
+  padding-top: 40px;
+  margin: auto;
+  text-align: center;
+}
+
+.inawashiroko_map{
+  width: 80%;
+  height: 80vh;
+  background-image: url("https://pbs.twimg.com/media/DLmhVAsUQAEJFHj?format=jpg&name=large");
+  background-size: cover;
+  background-position: center;
+}

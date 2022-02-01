@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* 大内宿の詳細ページのcss */
+.front_ohuchi {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://aizu-fuyutabi.com/wp/wp-content/uploads/2019/08/simogo_HPimg-08.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.pic_trans{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.front_ohuchi p{
+  position: absolute;
+  color: rgb(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 50px;
+  font-family :Quicksand, sans-serif;
+  height: 400px;
+  margin: auto;
+  padding: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  writing-mode: vertical-rl;
+  font-family: "Hannari";
+}
+
+.ohuchi_det{
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 300px;
+}
+
+.ohuchi_text_det1{
+  margin: auto;
+}
+
+.ohuchi_text_det2{
+  padding-top: 40px;
+  margin: auto;
+  width: 40%;
+  height: 50vh;
+  background-image: url("https://aizu-fuyutabi.com/wp/wp-content/uploads/2019/08/simogo_HPimg-08.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.spot{
+  margin-left: 150px;
+}
+
+.address_name{
+  font-size: 50px;
+  margin-left: 50px;
+  padding-bottom: 100px;
+}

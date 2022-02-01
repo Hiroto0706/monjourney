@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+ <link rel="stylesheet" href="hukushima.css">
+ <link rel="stylesheet" href="ohuchi.css">
+ <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+<title>もんじゃーにー。 -福島県観光スポット  大内宿-</title>
+</head>
+<body>
+  <div class="front_ohuchi">
+		<div class="pic_trans">
+			<p>
+				おおうちじゅく。
+			</p>
+		</div>
+  </div>
+
+	<div class="ohuchi_det">
+		<div class="ohuchi_text_det1">
+			<h1>大内宿</h1>
+			<p>
+				大内宿は福島県の中でも、<br>
+				1位2位を争うほど人気の観光スポットです。<br>
+				大内宿は夏には半夏祭り、冬には雪灯籠に照らし出されるといった<br>
+				幻想的なイベントが行われます。<br>
+				<br>
+				大内宿には、年間を通して100万人以上の観光客が訪れます。<br>
+				約400年前、江戸時代には運搬路として重要な道であった<br>
+				大名や旅人の宿場町として栄えました。<br>
+				中には、あの伊達政宗が小田原参陣、豊臣秀吉が<br>
+				奥歯仕置きでこの大内宿を進行した記録があるほど...!
+			</p>
+		</div>
+		<div class="ohuchi_text_det2"></div>
+	</div>
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBHNCFGoO8JvGPG4qO7sy-B-h9zxDFgbuI"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+	<script src="addressmaps.js"></script>
+	<script>
+	$(document).ready(function(){
+		// var address = $(".address").text();
+		// console.log(address);
+		drawMap('福島県南会津郡下郷町大内');
+	});
+	</script>
+	<div class="spot">
+		<div class="address">address</div>
+		<div class="address_name">福島県南会津郡下郷町大内</div>
+	</div>
+	<div id="map_canvas" style="width: 80%; height: 600px;"></div>
+	<footer>
+		<div class="fotter_p">
+			<p>（株）もんじゃーにー。</p>
+		</div>
+	</footer>
+</body>
+</html>
